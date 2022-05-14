@@ -7,13 +7,14 @@ export function Products() {
     <div>
       <NavMenu />
       <div className="container">
-        <div className="title-insert">
+        <div className="title-insert border-product">
           <p>Produtos</p>
         </div>
-        <div className="row">
+        <div className="row ">
           <TableCustom 
             row={rowsProduct}
             column={columnsProduct}
+            design={'product'}
           />
         </div>
       </div>

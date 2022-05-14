@@ -19,9 +19,33 @@
     p {
         float: left;
         padding-left: 2rem;
-        padding-top: 0.95rem;
+        padding-top: 0.6rem;
         color: rgb(43, 42, 42);
-        font-size: 16px;
+        font-size: 25px;
         font-weight: bold;
     }
+}
+
+.border-adm {
+    border-left: 3px solid #4895ff;
+}
+
+.border-product {
+    border-left: 3px solid #3bb54a;
+}
+
+.border-sale {
+    border-left: 3px solid #b3404a;
+}
+
+.border-providers {
+    border-left: 3px solid #835afd;
+}
+
+.border-reports {
+    border-left: 3px solid #cbf0f8;
+}
+
+.border-category {
+    border-left: 3px solid #ffde31;
 }

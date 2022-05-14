@@ -8,14 +8,20 @@ export function NavMenu() {
     const handleLogOut = () => {
         alert('desloguei')
     }
+
+    const handleReturn = () => {
+        window.location.replace('main')
+    }
+
+
   return (
     <div>
-        <nav className="navMain">
-            <img className='logotipo' src={logoNavBar} alt='' />
+        <nav className="navMain">            
+            <img onClick={() => handleReturn()} className='logotipo' src={logoNavBar} alt='' />
             <span onClick={handleLogOut} className='logout'>
                 <p>Sair</p>
                 <img src={logOut} alt='' />
-            </span>
+            </span>            
             <p>
                 Bem vindo(a) {user?.name}!
             </p>
