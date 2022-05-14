@@ -4,7 +4,7 @@ import { NavMenu } from '../components/NavMenu'
 export function Main() {
   return (
     <div>
-        <NavMenu />        
+        <NavMenu />
         <div className="main-container">
           <Cards />
         </div>

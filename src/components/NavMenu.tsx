@@ -19,7 +19,7 @@ export function NavMenu() {
             <p>
                 Bem vindo(a) {user?.name}!
             </p>
-            <img src={userlogo} alt='' />
+            <img className='image-user' src={userlogo} alt='user' />
         </nav>
     </div>
   )
