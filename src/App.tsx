@@ -2,7 +2,7 @@ import { BrowserRouter, Routes, Route } from 'react-router-dom'
 import { Home } from './pages/Home'
 import { AuthContextProvider } from './contexts/AuthContext'
 import { Main } from './pages/Main';
-import Products from './pages/Products';
+import { Products } from './pages/Products';
 
 function App() {
   return (
