@@ -1,5 +1,6 @@
 import '../styles/cards.scss'
 import  menu  from '../initial-state/cardMenu'
+import { useEffect } from 'react'
 
 
 export function Cards () {
@@ -9,9 +10,9 @@ export function Cards () {
   return (
         <div className="container">
             <div className="row">
-                {menu.map((item: any) => {
+                {menu.map((item: any, key: any) => {
                     return(
-                        <span className="card card-color" onClick={() => handleRedirect(item.path)}>
+                        <span key ={key} className="card card-color" onClick={() => handleRedirect(item.path)}>
                             <h2>{item.title}</h2>
                             <p>{item.subscript}</p>
                             <img className="image" src={item.image} alt="" />

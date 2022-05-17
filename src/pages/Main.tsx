@@ -1,3 +1,4 @@
+import { useEffect } from 'react'
 import { Cards } from '../components/Cards'
 import { NavMenu } from '../components/NavMenu'
 

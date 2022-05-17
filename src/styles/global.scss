@@ -1,7 +1,6 @@
 * {
     margin: 0;
     padding: 0;
-    box-sizing: border-box;
 }
 
 body {
@@ -12,6 +11,24 @@ body {
 
 body, input, button, textarea {
  font: 400 16px 'Roboto', sans-serif;
+}
+
+.container {
+    margin-top: 15rem;
+    @media (max-width: 767px)  {
+        margin-top: 3rem;
+    }
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    a {
+        text-decoration: none;
+        color: #FFF;
+    }
 }
 
 .navMain {
@@ -28,6 +45,7 @@ body, input, button, textarea {
         float: left;
         padding-top: .1rem;
         margin-left: 1rem;
+        cursor: pointer;
     }
     img {
         width: 1.75rem;
@@ -37,7 +55,7 @@ body, input, button, textarea {
     }
     p {
         float: right;
-        padding-right: 4rem;
+        padding-right: 2rem;
         padding-top: .95rem;
         color: #FFF;
         font-size: 16px;
