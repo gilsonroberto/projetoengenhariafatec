@@ -1,3 +1,19 @@
+.container {
+    // margin-top: 15rem; 
+    margin-top: 6rem;   
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    a {
+        text-decoration: none;
+        color: #FFF;
+    }
+}
+  
 .card {
     border-radius: 5px;
     box-shadow: 7px 7px 13px 0px rgba(50, 50, 50, 0.22);

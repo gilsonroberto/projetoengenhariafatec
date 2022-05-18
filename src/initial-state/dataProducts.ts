@@ -10,7 +10,7 @@ const columnsProduct: GridColDef[] = [
 
 const rowsProduct = [
     { id:1, name: 'Caderno Vingadores', category: 'Caderno', quantity: 35, value: 'R$ 10,00' },
-    { id:2, name: 'Caneta Bic', category: 'Produto', quantity: 120, value: 'R$ 44,10' },
+    { id:2, name: 'Caneta Bic', category: 'Produto', quantity: 120, value: 'R$ 2,10' },
     { id:3, name: 'Caneta hidrográfica 0,3mm 6 cores', category: 'Produto', quantity: 35, value: 'R$ 49,90' },
     { id:4, name: 'Tinta acrilica p/ tela c/20ml conjunto c/8 cores 13108 Acrilex CX 1 ET', category: 'Arte', quantity: 78, value: 'R$ 10,00' },
     { id:5, name: 'Papel monolucido 80g pardo 66x96 202-1 On Paper RL 2 FL', category: 'Embalagens', quantity: 72, value: 'R$ 7,70' },

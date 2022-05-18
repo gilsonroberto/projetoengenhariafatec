@@ -22,6 +22,7 @@ body, input, button, textarea {
 
 .container-client {
     margin-top: 3rem;
+    margin-top: 8rem;
     @media (max-width: 767px)  {
         margin-top: 3rem;
     }
@@ -85,4 +86,12 @@ body, input, button, textarea {
         -ms-flex-direction: column;
             flex-direction: column;
     border: 1px solid rgb(43, 42, 42);
+}
+
+.topoForm {
+    padding-top: 4rem;
+}
+
+.tituloPagina {
+    padding-top: 6rem;
 }
