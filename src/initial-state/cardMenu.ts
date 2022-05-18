@@ -30,10 +30,10 @@ const cardMenu = [
         path: '/relatorios'
     },
     {
-        title:'Categoria',
-        subscript: 'Gerencia seu categoria',
+        title:'Clientes',
+        subscript: 'Gerencie seus clientes',
         image:'',
-        path: '/perfil'
+        path: '/clientes'
     }
 
 ]

@@ -14,7 +14,14 @@ body, input, button, textarea {
 }
 
 .container {
-    margin-top: 15rem;
+    margin-top: 5rem;
+    @media (max-width: 767px)  {
+        margin-top: 3rem;
+    }
+}
+
+.container-client {
+    margin-top: 3rem;
     @media (max-width: 767px)  {
         margin-top: 3rem;
     }
