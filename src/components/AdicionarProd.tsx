@@ -87,7 +87,7 @@ export default function AdicionarProduto() {
   return (
     <div>
       <IconButton onClick={handleClickOpen}>
-        <AddIcon style={{fill: "white"}} />
+        <AddIcon/>
       </IconButton>
       <Dialog
         open={open}

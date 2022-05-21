@@ -13,7 +13,7 @@ export default function DataTable({column, row, design}: Props) {
       <DataGrid
         rows={row}
         columns={column}
-        pageSize={10}
+        pageSize={5}
         rowsPerPageOptions={[5]}
         checkboxSelection
       />

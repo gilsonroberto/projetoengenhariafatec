@@ -26,7 +26,7 @@ export default function ModalExcluir(props: any) {
   return (
     <div>
       <IconButton onClick={handleClickOpen}>
-        <DeleteIcon style={{fill: "white"}}/>
+        <DeleteIcon />
       </IconButton>
       <Dialog
         open={open}

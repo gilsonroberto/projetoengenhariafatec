@@ -5,7 +5,8 @@
 
 body {
     opacity: 1;
-    background: #09090A;
+    // background: #09090A;
+    background: #F6F6F6;
     color: #f8f8f8;
 }
 
@@ -94,4 +95,8 @@ body, input, button, textarea {
 
 .tituloPagina {
     padding-top: 6rem;
+}
+
+.busca {
+    padding-bottom: 1rem;
 }

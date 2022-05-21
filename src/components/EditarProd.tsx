@@ -88,7 +88,7 @@ export default function EditarProduto() {
   return (
     <div>
       <IconButton onClick={handleClickOpen}>
-        <CreateIcon  style={{fill: "white"}} />
+        <CreateIcon  />
       </IconButton>
       <Dialog
         open={open}
