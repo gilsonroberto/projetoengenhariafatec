@@ -3,7 +3,7 @@ const cardMenu = [
         title:'Administração de usuários',
         subscript: 'Gerencia sua lista de usuários',
         image:'',
-        path: '/adm'
+        path: '/adm-usuarios'
     },
     {
         title:'Produtos',

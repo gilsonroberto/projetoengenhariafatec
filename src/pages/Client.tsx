@@ -78,9 +78,11 @@ export function Client() {
       <NavMenu />
       <div className="container-client">
         <div className="title-clients border-clients">
-          <p>Clientes</p>
-          <div className="box border-clients">
-            <div className="row "> 
+          <div className='row'>
+            <p>Clientes</p>
+          </div>
+          <div className="border-clients">
+            <div className="row ">
               <Box
                 component="form"
                 sx={{

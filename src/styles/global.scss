@@ -22,7 +22,7 @@ body, input, button, textarea {
 
 .container-client {
     // margin-top: 3rem;
-    margin-top: 8rem;
+    margin-top: 3rem;
     @media (max-width: 767px)  {
         margin-top: 3rem;
     }
@@ -114,4 +114,9 @@ body, input, button, textarea {
         font-weight: bold;
         border-width: medium
     }
+}
+
+.box {
+    background-color: #FFF;
+    padding-top: 47px;
 }

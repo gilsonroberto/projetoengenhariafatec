@@ -28,24 +28,35 @@
 
 .border-adm {
     border-left: 3px solid #4895ff;
+    border-left-width: 2px;
+
 }
 
 .border-product {
     border-left: 3px solid #3bb54a;
+    border-left-width: 1px;
+    border-top-left-radius: 5px;
 }
 
 .border-sale {
     border-left: 3px solid #b3404a;
+    border-left-width: 1px;
+    border-top-left-radius: 5px;
 }
 
 .border-providers {
     border-left: 3px solid #835afd;
+    border-left-width: 1px;
+    border-top-left-radius: 5px;
 }
 
 .border-reports {
     border-left: 3px solid #cbf0f8;
+    border-left-width: 1px;
+    border-top-left-radius: 5px;
 }
 
 .border-clients {
     border-left: 3px solid #ffde31;
+    border-left-width: 2px;
 }

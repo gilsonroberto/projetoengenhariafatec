@@ -5,7 +5,7 @@ import { Main } from './pages/Main';
 import { Products } from './pages/Products';
 import { Client } from './pages/Client';
 import { Vendas } from './pages/Vendas';
-
+import { AdmUser } from './pages/AdmUser';
 
 function App() {
   return (
@@ -16,7 +16,8 @@ function App() {
           <Route path="main" element={<Main />} />
           <Route path="/produtos" element={<Products />} />
           <Route path="/clientes" element={<Client />} />
-          <Route path= "/vendas" element={<Vendas />}></Route>
+          <Route path= "/vendas" element={<Vendas />} />
+          <Route path= "/adm-usuarios" element={<AdmUser />} />
         </Routes>
       </AuthContextProvider>
     </BrowserRouter>
