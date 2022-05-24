@@ -37,13 +37,6 @@ export function AdmUser() {
     setLoginConfirm(event.target.value);
   };
 
-  console.log(codAdm)
-  console.log(nameAdm)
-  console.log(surnameAdm)
-  console.log(login)
-  console.log(userName)
-  console.log(loginConfirm)
-
   return (
     <div>
         <NavMenu />

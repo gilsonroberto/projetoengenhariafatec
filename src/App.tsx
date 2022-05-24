@@ -6,6 +6,8 @@ import { Products } from './pages/Products';
 import { Client } from './pages/Client';
 import { Vendas } from './pages/Vendas';
 import { AdmUser } from './pages/AdmUser';
+// import { Relatorios } from './pages/Relatorios';
+import { Fornecedores } from './pages/Fornecedores';
 
 function App() {
   return (
@@ -18,6 +20,8 @@ function App() {
           <Route path="/clientes" element={<Client />} />
           <Route path= "/vendas" element={<Vendas />} />
           <Route path= "/adm-usuarios" element={<AdmUser />} />
+          {/* <Route path= "/relatorios" element={<Relatorios />} /> */}
+          <Route path= "/fornecedores" element={<Fornecedores />} />
         </Routes>
       </AuthContextProvider>
     </BrowserRouter>
